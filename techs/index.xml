@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techs on Lorenzo Del Rossi</title>
+    <link>https://LorenzoDelRossi.github.io/techs/</link>
+    <description>Recent content in Techs on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Fri, 20 Sep 2019 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://LorenzoDelRossi.github.io/techs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GoLang</title>
+      <link>https://LorenzoDelRossi.github.io/techs/golang/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/techs/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://LorenzoDelRossi.github.io/techs/mongodb/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/techs/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://LorenzoDelRossi.github.io/techs/java/</link>
+      <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/techs/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://LorenzoDelRossi.github.io/techs/c/</link>
+      <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/techs/c/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
