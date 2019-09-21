@@ -2,37 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C on Lorenzo Del Rossi</title>
-<<<<<<< HEAD:techs/c/index.xml
     <link>https://LorenzoDelRossi.github.io/techs/c/</link>
-=======
-    <link>https://lorenzodelrossi.github.io/public/techs/c/</link>
->>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/c/index.xml
     <description>Recent content in C on Lorenzo Del Rossi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lorenzo Del Rossi</copyright>
     <lastBuildDate>Wed, 02 May 2018 19:47:09 +0200</lastBuildDate>
     
-<<<<<<< HEAD:techs/c/index.xml
 	<atom:link href="https://LorenzoDelRossi.github.io/techs/c/index.xml" rel="self" type="application/rss+xml" />
-=======
-	<atom:link href="https://lorenzodelrossi.github.io/public/techs/c/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/c/index.xml
     
     
     <item>
       <title>Interfaccia di comunicazione tramite protocollo I2C in linguaggio C</title>
-<<<<<<< HEAD:techs/c/index.xml
       <link>https://LorenzoDelRossi.github.io/portfolio/i2c/</link>
       <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/i2c/</guid>
-=======
-      <link>https://lorenzodelrossi.github.io/public/portfolio/i2c/</link>
-      <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
-      
-      <guid>https://lorenzodelrossi.github.io/public/portfolio/i2c/</guid>
->>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/c/index.xml
       <description>Implementazione in linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas.</description>
     </item>
     
