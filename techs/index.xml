@@ -2,49 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techs on Lorenzo Del Rossi</title>
+<<<<<<< HEAD:techs/index.xml
     <link>https://LorenzoDelRossi.github.io/techs/</link>
+=======
+    <link>https://lorenzodelrossi.github.io/public/techs/</link>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/index.xml
     <description>Recent content in Techs on Lorenzo Del Rossi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lorenzo Del Rossi</copyright>
     <lastBuildDate>Fri, 20 Sep 2019 19:47:09 +0200</lastBuildDate>
     
+<<<<<<< HEAD:techs/index.xml
 	<atom:link href="https://LorenzoDelRossi.github.io/techs/index.xml" rel="self" type="application/rss+xml" />
+=======
+	<atom:link href="https://lorenzodelrossi.github.io/public/techs/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/index.xml
     
     
     <item>
       <title>GoLang</title>
+<<<<<<< HEAD:techs/index.xml
       <link>https://LorenzoDelRossi.github.io/techs/golang/</link>
       <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/techs/golang/</guid>
+=======
+      <link>https://lorenzodelrossi.github.io/public/techs/golang/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://lorenzodelrossi.github.io/public/techs/golang/</guid>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/index.xml
       <description></description>
     </item>
     
     <item>
       <title>MongoDB</title>
+<<<<<<< HEAD:techs/index.xml
       <link>https://LorenzoDelRossi.github.io/techs/mongodb/</link>
       <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/techs/mongodb/</guid>
+=======
+      <link>https://lorenzodelrossi.github.io/public/techs/mongodb/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://lorenzodelrossi.github.io/public/techs/mongodb/</guid>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/index.xml
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
+<<<<<<< HEAD:techs/index.xml
       <link>https://LorenzoDelRossi.github.io/techs/java/</link>
       <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/techs/java/</guid>
+=======
+      <link>https://lorenzodelrossi.github.io/public/techs/java/</link>
+      <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://lorenzodelrossi.github.io/public/techs/java/</guid>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/index.xml
       <description></description>
     </item>
     
     <item>
       <title>C</title>
+<<<<<<< HEAD:techs/index.xml
       <link>https://LorenzoDelRossi.github.io/techs/c/</link>
       <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/techs/c/</guid>
+=======
+      <link>https://lorenzodelrossi.github.io/public/techs/c/</link>
+      <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
+      
+      <guid>https://lorenzodelrossi.github.io/public/techs/c/</guid>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/index.xml
       <description></description>
     </item>
     

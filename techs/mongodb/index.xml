@@ -2,22 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MongoDB on Lorenzo Del Rossi</title>
+<<<<<<< HEAD:techs/mongodb/index.xml
     <link>https://LorenzoDelRossi.github.io/techs/mongodb/</link>
+=======
+    <link>https://lorenzodelrossi.github.io/public/techs/mongodb/</link>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/mongodb/index.xml
     <description>Recent content in MongoDB on Lorenzo Del Rossi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Lorenzo Del Rossi</copyright>
     <lastBuildDate>Fri, 20 Sep 2019 19:47:09 +0200</lastBuildDate>
     
+<<<<<<< HEAD:techs/mongodb/index.xml
 	<atom:link href="https://LorenzoDelRossi.github.io/techs/mongodb/index.xml" rel="self" type="application/rss+xml" />
+=======
+	<atom:link href="https://lorenzodelrossi.github.io/public/techs/mongodb/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/mongodb/index.xml
     
     
     <item>
       <title>Architettura Backend Nesso</title>
+<<<<<<< HEAD:techs/mongodb/index.xml
       <link>https://LorenzoDelRossi.github.io/portfolio/nesso/</link>
       <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/nesso/</guid>
+=======
+      <link>https://lorenzodelrossi.github.io/public/portfolio/nesso/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://lorenzodelrossi.github.io/public/portfolio/nesso/</guid>
+>>>>>>> 314b85dc16104b0809fbf19ab1be68dd4180672e:public/techs/mongodb/index.xml
       <description>Sviluppo dell&amp;rsquo;architettura lato server del nuovo e rivoluzionario servizio di trasporto moto.</description>
     </item>
     
