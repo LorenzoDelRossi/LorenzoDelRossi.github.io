@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PORTFOLIO on Lorenzo Del Rossi</title>
+    <link>https://example.com/portfolio/</link>
+    <description>Recent content in PORTFOLIO on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Fri, 20 Sep 2019 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Architettura Backend Nesso</title>
+      <link>https://example.com/portfolio/nesso/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://example.com/portfolio/nesso/</guid>
+      <description>Sviluppo dell&amp;rsquo;architettura lato server del nuovo e rivoluzionario servizio di trasporto moto.</description>
+    </item>
+    
+    <item>
+      <title>Applicazione Web RESTful in Java</title>
+      <link>https://example.com/portfolio/sample/</link>
+      <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://example.com/portfolio/sample/</guid>
+      <description>Sviluppo di un&amp;rsquo;applicazione Web con particolare attenzione al lato Server della stessa ed un&amp;rsquo;interfaccia utente in html.</description>
+    </item>
+    
+    <item>
+      <title>Interfaccia di comunicazione tramite protocollo I2C in linguaggio C</title>
+      <link>https://example.com/portfolio/i2c/</link>
+      <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
+      
+      <guid>https://example.com/portfolio/i2c/</guid>
+      <description>Implementazione in linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas.</description>
+    </item>
+    
+  </channel>
+</rss>

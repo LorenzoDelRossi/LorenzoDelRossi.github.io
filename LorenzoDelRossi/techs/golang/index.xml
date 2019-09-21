@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoLang on Lorenzo Del Rossi</title>
+    <link>https://example.com/techs/golang/</link>
+    <description>Recent content in GoLang on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Fri, 20 Sep 2019 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.com/techs/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Architettura Backend Nesso</title>
+      <link>https://example.com/portfolio/nesso/</link>
+      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://example.com/portfolio/nesso/</guid>
+      <description>Sviluppo dell&amp;rsquo;architettura lato server del nuovo e rivoluzionario servizio di trasporto moto.</description>
+    </item>
+    
+  </channel>
+</rss>
