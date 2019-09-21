@@ -1,0 +1,95 @@
+baseURL = "https://LorenzoDelRossi.github.io/"
+languageCode = "en-us"
+title = "Lorenzo Del Rossi"
+theme = "personal-web"
+copyright="© Lorenzo Del Rossi"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "LORENZO DEL ROSSI"
+  sub = "Computer Engineer and Nesso CIO"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = false
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = '/images/sfondo.jpg' 
+  gradientOverlay = 'rgba(0,0,0,0.6),rgba(0,0,0,0.6)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/io.png"
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  facebook = "https://www.facebook.com/lorenzo.delrossi"
+  instagram = "https://www.instagram.com/lorenzodelrossi95"
+  linkedin = "https://www.linkedin.com/in/lorenzo-del-rossi-76517418b/" 
+  github = "https://github.com/LorenzoDelRossi"
+
+[params.contact]
+  email = "edd95@hotmail.it"
+  text= "Contattami" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "Su di me"
+  title = "About section"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -110
+
+#[[menu.main]]
+ # identifier = "blog"
+ # name = "Post"
+ # title = "Blog section"
+ # url = "/post/"
+ # weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
