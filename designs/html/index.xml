@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>Applicazione Web RESTful in Java</title>
+      <title>Applicazione Web RESTful in Java &#43; Spring</title>
       <link>https://LorenzoDelRossi.github.io/portfolio/sample/</link>
       <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/sample/</guid>
-      <description>Sviluppo di un&amp;rsquo;applicazione Web con particolare attenzione al lato Server della stessa ed un&amp;rsquo;interfaccia utente in html.</description>
+      <description>Sviluppo in linguaggio Java e tramite l&amp;rsquo;utilizzo del framework Spring di un&amp;rsquo;applicazione Web basata su microservizi, con particolare attenzione al lato Server della stessa.</description>
     </item>
     
   </channel>

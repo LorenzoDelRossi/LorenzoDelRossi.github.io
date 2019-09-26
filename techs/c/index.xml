@@ -18,7 +18,7 @@
       <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/i2c/</guid>
-      <description>Implementazione in linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas.</description>
+      <description>Riadattamento dal linguaggio C++ al linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas RX63N.</description>
     </item>
     
   </channel>

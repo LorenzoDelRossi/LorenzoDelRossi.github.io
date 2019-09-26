@@ -18,16 +18,16 @@
       <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/nesso/</guid>
-      <description>Sviluppo dell&amp;rsquo;architettura lato server del nuovo e rivoluzionario servizio di trasporto moto.</description>
+      <description>Ideazione e sviluppo dell&amp;rsquo;architettura lato Server della nuova startup che rivoluzionerà il mondo del servizio di trasporto moto.</description>
     </item>
     
     <item>
-      <title>Applicazione Web RESTful in Java</title>
+      <title>Applicazione Web RESTful in Java &#43; Spring</title>
       <link>https://LorenzoDelRossi.github.io/portfolio/sample/</link>
       <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/sample/</guid>
-      <description>Sviluppo di un&amp;rsquo;applicazione Web con particolare attenzione al lato Server della stessa ed un&amp;rsquo;interfaccia utente in html.</description>
+      <description>Sviluppo in linguaggio Java e tramite l&amp;rsquo;utilizzo del framework Spring di un&amp;rsquo;applicazione Web basata su microservizi, con particolare attenzione al lato Server della stessa.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/i2c/</guid>
-      <description>Implementazione in linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas.</description>
+      <description>Riadattamento dal linguaggio C++ al linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas RX63N.</description>
     </item>
     
   </channel>
