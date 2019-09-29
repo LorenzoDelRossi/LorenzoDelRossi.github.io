@@ -18,16 +18,16 @@
       <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/nesso/</guid>
-      <description>Ideazione e sviluppo dell&amp;rsquo;architettura lato Server della nuova startup che rivoluzionerà il mondo del servizio di trasporto moto.</description>
+      <description>All&amp;rsquo;interno di un&amp;rsquo;applicazione Web è importante avere una buona UI/UX (User Interface/User Experience), ma è di altrettanta importanza costruire una solida e scalabile architettura Backend. In un ambito in cui la manipolazione di grandi quantità di dati sta diventando sempre più necessario per ogni attività, il mio ruolo nella nuova startup che rivoluzionerà il mondo del servizio di trasporto moto è stato e sarà, in qualità di CIO, ideare e sviluppare l&amp;rsquo;architettura lato Server, utilizzando due tecnologie all&amp;rsquo;avanguardia come il linguaggio Go ed il database non-relazionale MongoDB,per garantire un&amp;rsquo;appropriata manipolazione ed organizzazione dei dati.</description>
     </item>
     
     <item>
-      <title>Applicazione Web RESTful in Java &#43; Spring</title>
+      <title>API RESTful in Java &#43; Spring</title>
       <link>https://LorenzoDelRossi.github.io/portfolio/sample/</link>
       <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/sample/</guid>
-      <description>Sviluppo in linguaggio Java e tramite l&amp;rsquo;utilizzo del framework Spring di un&amp;rsquo;applicazione Web basata su microservizi, con particolare attenzione al lato Server della stessa.</description>
+      <description>Sviluppare un set di API è un ottimo esercizio di sviluppo. Lo vediamo da diversi anni ormai e adesso che anche WordPress offre le sue API possiamo iniziare a sviluppare più facilmente. Con l’acronimo API si intende Application Programming Interface e non è altro che la creazione di una serie di endpoint (delle URL) che rispondono alle richieste fatte da uno sviluppatore. Praticamente una raccolta di metodi che ci permettono di collegare librerie o applicazioni presenti su diversi sistemi.</description>
     </item>
     
     <item>
