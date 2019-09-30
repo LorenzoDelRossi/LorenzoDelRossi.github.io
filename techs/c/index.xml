@@ -18,7 +18,7 @@
       <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/portfolio/i2c/</guid>
-      <description>Riadattamento dal linguaggio C++ al linuguaggio C di un&amp;rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare su un drone ad elica intubata dotato di scheda a microcontrollore Renesas RX63N.</description>
+      <description>All&amp;rsquo;interno di sistemi complessi composti da più dispositivi interconnessi è necessario un collegamento, sia a livello fisico che a livello logico, con un dispositivo Master (che molto spesso è una scheda a microcontrollore). Per permettere a tutti i dispositivi Slave di funzionare correttamente ed in parallelo bisogna implementare un protocollo di comunicazione facendo attenzione a scriverlo ad-hoc per ogni dispositivo per evitare interferenze nella trasmissione dei dati quando il sistema sarà in funzione.</description>
     </item>
     
   </channel>
