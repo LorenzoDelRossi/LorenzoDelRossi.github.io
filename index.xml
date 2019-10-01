@@ -5,12 +5,23 @@
     <link>https://LorenzoDelRossi.github.io/</link>
     <description>Recent content in HOME on Lorenzo Del Rossi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>it</language>
     <copyright>© Lorenzo Del Rossi</copyright>
-    <lastBuildDate>Fri, 20 Sep 2019 19:47:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://LorenzoDelRossi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Qual è il miglior router Go?</title>
+      <link>https://LorenzoDelRossi.github.io/post/testmicroservizi/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/post/testmicroservizi/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/post/images/testmicro.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
     
     <item>
       <title>Architettura Backend Nesso</title>

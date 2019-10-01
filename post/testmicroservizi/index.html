@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'><head>
- <title>Open Graph image - Lorenzo Del Rossi</title>
-  <link rel='canonical' href='https://LorenzoDelRossi.github.io/post/define-specific-og-image/' />
+ <title>Qual è il miglior router Go? - Lorenzo Del Rossi</title>
+  <link rel='canonical' href='https://LorenzoDelRossi.github.io/post/testmicroservizi/' />
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <meta name='description' content='Define a specific Open Graph image for a page' />
+  <meta name='description' content='Comparazione prestazionale dei router più famosi di Go.' />
   <meta name='theme-color' content='#FD3519' />
   
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
@@ -22,20 +22,20 @@
 <link rel="stylesheet" href="https://LorenzoDelRossi.github.io/sass/style.min.b9bd5098ff69076c2115c823be707875d1d953363e6e45e21e79952b6c599b7b.css" integrity="sha256-ub1QmP9pB2whFcgjvnB4ddHZUzY&#43;bkXiHnmVK2xZm3s=" media="screen">
 <link rel="stylesheet" href="https://LorenzoDelRossi.github.io/syntax.min.css" integrity="" media="screen">
 
-  <meta property="og:title" content="Open Graph image" />
-<meta property="og:description" content="Define a specific Open Graph image for a page" />
+  <meta property="og:title" content="Qual è il miglior router Go?" />
+<meta property="og:description" content="Comparazione prestazionale dei router più famosi di Go." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://LorenzoDelRossi.github.io/post/define-specific-og-image/" />
-<meta property="article:published_time" content="2019-04-20T11:14:59+02:00" />
-<meta property="article:modified_time" content="2019-04-20T11:14:59+02:00" />
+<meta property="og:url" content="https://LorenzoDelRossi.github.io/post/testmicroservizi/" />
+<meta property="article:published_time" content="2019-10-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-01T00:00:00+00:00" />
 
-  <meta itemprop="name" content="Open Graph image">
-<meta itemprop="description" content="Define a specific Open Graph image for a page">
+  <meta itemprop="name" content="Qual è il miglior router Go?">
+<meta itemprop="description" content="Comparazione prestazionale dei router più famosi di Go.">
 
 
-<meta itemprop="datePublished" content="2019-04-20T11:14:59&#43;02:00" />
-<meta itemprop="dateModified" content="2019-04-20T11:14:59&#43;02:00" />
-<meta itemprop="wordCount" content="29">
+<meta itemprop="datePublished" content="2019-10-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-10-01T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="490">
 
 
 
@@ -123,7 +123,7 @@
     
     <main id="content" class="post">
 
-<h1>Open Graph image</h1>
+<h1>Qual è il miglior router Go?</h1>
 <div class="reading-time">
   <div class="icon">
   <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
@@ -133,7 +133,7 @@
   </svg>
 </div>
 
-  <span>1 min.</span>
+  <span>3 min.</span>
 </div>
 
 <div class="published-date">
@@ -145,16 +145,69 @@
   </svg>
 </div>
 
-  <span><time class="post-date" datetime="2019-04-20T11:14:59&#43;02:00">
-20 Aprile 2019
+  <span><time class="post-date" datetime="2019-10-01T00:00:00Z">
+1 Ottobre 2019
 </time></span>
 </div>
 
 
-<p>Within any page, you can add in the FrontMatter a images array that will be used to define a specific Open Graph image.</p>
+<figure>
+    <img src="/post/images/testmicro.png"/> 
+</figure>
 
-<p>For example, see <code>content/_index.md</code> page:</p>
-<div class="highlight"><pre class="chroma"><code class="language-YAML" data-lang="YAML">images<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;/images/sample.jpg&#34;</span><span class="p">]</span></code></pre></div>
+
+<p>In questo articolo prosguirò nel trattare l&rsquo;ottimizzazione nello sviluppo di una Applicazione Web.<br/>
+Il punto di partenza per un&rsquo;applicazione ottimizzata è sicuramente l&rsquo;utilizzo di un linguaggio opportuno, ma non è abbastanza.<br/> Nel precedente articolo ho parlato del motivo per cui la scelta del linguaggio Go influisce nell&rsquo;ottimizzazione della nostra applicazione, ma non è sufficiente scegliere
+un linguaggio ottimizzato per ottenere automaticamente un&rsquo;applicazione ottimizzata. <br/>
+In questo articolo mi soffermerò quindi su un altro aspetto altrettanto importante: la scelta del miglior router in circolazione.<br/></p>
+
+<p>I router disponibili in linguaggio Go sono moltissimi, a partire dai famosissimi GorillaMux e Martini, che con il tempo sono stati superati in termini di prestazioni da altri
+router &ldquo;più giovani&rdquo;. Testarli tutti sarebbe un lavoro mastodontico, pertanto mi sono concentrato sul test di due router che ritengo tra i più famosi al momento: <strong>HttpRouter</strong> di Julien Schmidt ed il framework <strong>Gin</strong>.<br/></p>
+
+<h2 id="un-po-di-teoria">Un po&rsquo; di teoria..</h2>
+
+<p>HttpRouter è un router di richiesta HTTP leggero ed ottimizzato per
+fornire prestazioni elevate con un consumo ridotto di memoria rispetto al mux standard del pacchetto <em>net/http</em>. Tra le sue caratteristiche principali abbiamo:<br/></p>
+
+<ul>
+<li>Path auto-correction: non importa se inserite lettere maiuscole dove c&rsquo;erano minuscole o viceversa, HttpRouter correggerà automaticamente l&rsquo;errore per voi.</li>
+<li>Zero immondizia: gli unici bytes allocati saranno per costruire la corrispondenze chiave-valore per i percorsi che intendete coprire con la vostra applicazione.</li>
+<li>Anti-panico: è possibile impostare un Panic Handler per evitare crash anomali
+del server e gestire situazioni indesiderate.</li>
+</ul>
+
+<p>Gin è un web framework che presenta una API simile a Martini, che era il framework più usato fino a poco tempo fa, resa più performante.
+Vediamo alcune delle sue caratteristiche:<br/></p>
+
+<ul>
+<li>Community attiva: grazie alla community di Gin c&rsquo;è una vasta scelta di middlewares.</li>
+<li>Anti-panico: anche questo framework dà la possibilità di impostare un Panic Handler per evitare crash anomali del server e gestire situazioni indesiderate.</li>
+<li>Sintassi compatta: rispetto ad altri router Gin presenta una sintassi più compatta che che vi permetterà di risparmiare righe di codice preziose.</li>
+</ul>
+
+<h2 id="e-ora-si-passa-ai-fatti">..e ora si passa ai fatti</h2>
+
+<p>Per stabilire quale dei due router presenta la miglior prestazione ho sviluppato un microservizio utilizzando il router di Julien Schmidt ed uno utilizzando il router Gin che tramite una chiamata POST genera altre 500 chiamate POST concorrenti con un body consistente nel JSON</p>
+
+<pre><code>{
+&quot;name&quot;: &quot;prova&quot;
+}
+</code></pre>
+
+<p>che verrà successivamente stampato in console.<br/>
+Per far partire le chiamate su uno dei microservizi sviluppati ho creato un terzo microservizio il quale, in base alla chiamata GET che gli viene passata, genera una chiamata POST all&rsquo;uno o all&rsquo;altro microservizio.</p>
+
+<p>Dopo aver effettuato 50 prove ed aver calcolato la media dei tempi necessari all&rsquo;esecuzione dei microservizi il risultato ha premiato Gin.</p>
+
+<figure>
+    <img src="/post/images/tempi.png"/> 
+</figure>
+
+
+<p>In conclusione, nonostante il router di Julien Schmidt ha guadagnato la sua fama per la sua efficienza, abbiamo dimostrato che c&rsquo;è un router che riesce ad esserlo ancora di più senza
+Se volete dare un&rsquo;occhiata al codice o modificarlo per fare test con altri routers potete trovarlo <a href="https://github.com/LorenzoDelRossi/Julien-Schmidt-vs-Gin-Router" target="_blank">QUI</a>.</p>
+
+<p>#LetsGO!</p>
 
     </main>
   </div>
