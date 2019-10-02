@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'><head>
- <title>Qual è il miglior router Go? - Lorenzo Del Rossi</title>
+ <title>Qual è il router Go più efficiente? - Lorenzo Del Rossi</title>
   <link rel='canonical' href='https://LorenzoDelRossi.github.io/post/testmicroservizi/' />
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -19,23 +19,23 @@
 
 
 
-<link rel="stylesheet" href="https://LorenzoDelRossi.github.io/sass/style.min.b9bd5098ff69076c2115c823be707875d1d953363e6e45e21e79952b6c599b7b.css" integrity="sha256-ub1QmP9pB2whFcgjvnB4ddHZUzY&#43;bkXiHnmVK2xZm3s=" media="screen">
+<link rel="stylesheet" href="https://LorenzoDelRossi.github.io/sass/style.min.d4ef91c7ed2187157e7a5ec857f3bd762246c20c9a770c981affa1e375540cf2.css" integrity="sha256-1O&#43;Rx&#43;0hhxV&#43;el7IV/O9diJGwgyadwyYGv&#43;h43VUDPI=" media="screen">
 <link rel="stylesheet" href="https://LorenzoDelRossi.github.io/syntax.min.css" integrity="" media="screen">
 
-  <meta property="og:title" content="Qual è il miglior router Go?" />
+  <meta property="og:title" content="Qual è il router Go più efficiente?" />
 <meta property="og:description" content="Comparazione prestazionale dei router più famosi di Go." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://LorenzoDelRossi.github.io/post/testmicroservizi/" />
 <meta property="article:published_time" content="2019-10-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2019-10-01T00:00:00+00:00" />
 
-  <meta itemprop="name" content="Qual è il miglior router Go?">
+  <meta itemprop="name" content="Qual è il router Go più efficiente?">
 <meta itemprop="description" content="Comparazione prestazionale dei router più famosi di Go.">
 
 
 <meta itemprop="datePublished" content="2019-10-01T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-10-01T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="490">
+<meta itemprop="wordCount" content="508">
 
 
 
@@ -53,7 +53,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://LorenzoDelRossi.github.io/images/cio.jpg' alt="Profile Qual è il miglior router Go?" class="rounded-logo">
+        <img src='https://LorenzoDelRossi.github.io/images/cio.jpg' alt="Profile PORTFOLIO" class="rounded-logo">
       </a>
     </div>
     <h2>LORENZO DEL ROSSI</h2>
@@ -123,7 +123,8 @@
     
     <main id="content" class="post">
 
-<h1>Qual è il miglior router Go?</h1>
+<h1>Qual è il router Go più efficiente?</h1>
+
 <div class="reading-time">
   <div class="icon">
   <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
@@ -159,10 +160,9 @@
 <p>In questo articolo prosguirò nel trattare l&rsquo;ottimizzazione nello sviluppo di una Applicazione Web.<br/>
 Il punto di partenza per un&rsquo;applicazione ottimizzata è sicuramente l&rsquo;utilizzo di un linguaggio opportuno, ma non è abbastanza.<br/> Nel precedente articolo ho parlato del motivo per cui la scelta del linguaggio Go influisce nell&rsquo;ottimizzazione della nostra applicazione, ma non è sufficiente scegliere
 un linguaggio ottimizzato per ottenere automaticamente un&rsquo;applicazione ottimizzata. <br/>
-In questo articolo mi soffermerò quindi su un altro aspetto altrettanto importante: la scelta del miglior router in circolazione.<br/></p>
+In questo articolo mi soffermerò quindi su un altro aspetto altrettanto importante: la scelta della tecnologia di routing più efficiente possibile.<br/></p>
 
-<p>I router disponibili in linguaggio Go sono moltissimi, a partire dai famosissimi GorillaMux e Martini, che con il tempo sono stati superati in termini di prestazioni da altri
-router &ldquo;più giovani&rdquo;. Testarli tutti sarebbe un lavoro mastodontico, pertanto mi sono concentrato sul test di due router che ritengo tra i più famosi al momento: <strong>HttpRouter</strong> di Julien Schmidt ed il framework <strong>Gin</strong>.<br/></p>
+<p>I router ed i framework disponibili in linguaggio Go sono moltissimi, a partire dai famosissimi GorillaMux e Martini, che con il tempo sono stati superati in termini di prestazioni da altri router &ldquo;più giovani&rdquo;. Testarli tutti sarebbe un lavoro mastodontico, pertanto mi sono concentrato sul test di un router ed un framework che ritengo tra i più efficienti al momento: <strong>HttpRouter</strong> di Julien Schmidt ed il framework <strong>Gin</strong>.<br/></p>
 
 <h2 id="un-po-di-teoria">Un po&rsquo; di teoria..</h2>
 
@@ -172,7 +172,7 @@ fornire prestazioni elevate con un consumo ridotto di memoria rispetto al mux st
 <ul>
 <li>Path auto-correction: non importa se inserite lettere maiuscole dove c&rsquo;erano minuscole o viceversa, HttpRouter correggerà automaticamente l&rsquo;errore per voi.</li>
 <li>Zero immondizia: gli unici bytes allocati saranno per costruire la corrispondenze chiave-valore per i percorsi che intendete coprire con la vostra applicazione.</li>
-<li>Anti-panico: è possibile impostare un Panic Handler per evitare crash anomali
+<li>Anti-panic: è possibile impostare un Panic Handler per evitare crash anomali
 del server e gestire situazioni indesiderate.</li>
 </ul>
 
@@ -181,7 +181,7 @@ Vediamo alcune delle sue caratteristiche:<br/></p>
 
 <ul>
 <li>Community attiva: grazie alla community di Gin c&rsquo;è una vasta scelta di middlewares.</li>
-<li>Anti-panico: anche questo framework dà la possibilità di impostare un Panic Handler per evitare crash anomali del server e gestire situazioni indesiderate.</li>
+<li>Anti-panic: anche questo framework dà la possibilità di impostare un Panic Handler per evitare crash anomali del server e gestire situazioni indesiderate.</li>
 <li>Sintassi compatta: rispetto ad altri router Gin presenta una sintassi più compatta che che vi permetterà di risparmiare righe di codice preziose.</li>
 </ul>
 
@@ -197,17 +197,18 @@ Vediamo alcune delle sue caratteristiche:<br/></p>
 <p>che verrà successivamente stampato in console.<br/>
 Per far partire le chiamate su uno dei microservizi sviluppati ho creato un terzo microservizio il quale, in base alla chiamata GET che gli viene passata, genera una chiamata POST all&rsquo;uno o all&rsquo;altro microservizio.</p>
 
-<p>Dopo aver effettuato 50 prove ed aver calcolato la media dei tempi necessari all&rsquo;esecuzione dei microservizi il risultato ha premiato Gin.</p>
+<p>Dopo aver effettuato 50 prove per ogni microservizio ed aver calcolato la media dei tempi necessari all&rsquo;esecuzione degli stessi il risultato ha premiato Gin.</p>
 
 <figure>
     <img src="/post/images/tempi.png"/> 
 </figure>
 
 
-<p>In conclusione, nonostante il router di Julien Schmidt ha guadagnato la sua fama per la sua efficienza, abbiamo dimostrato che c&rsquo;è un router che riesce ad esserlo ancora di più senza
-Se volete dare un&rsquo;occhiata al codice o modificarlo per fare test con altri routers potete trovarlo <a href="https://github.com/LorenzoDelRossi/Julien-Schmidt-vs-Gin-Router" target="_blank">QUI</a>.</p>
+<p>In conclusione, nonostante il router di Julien Schmidt ha guadagnato la sua fama per la sua efficienza, abbiamo dimostrato che c&rsquo;è un router che riesce ad esserlo ancora di più senza dover scrivere codici più lunghi o complessi.<br/></p>
 
-<p>#LetsGO!</p>
+<p>Se volete dare un&rsquo;occhiata al codice o modificarlo per fare test con altri routers potete trovarlo <a href="https://github.com/LorenzoDelRossi/Julien-Schmidt-vs-Gin-Router" target="_blank">QUI</a>.</p>
+
+<p><em>#LetsGO</em></p>
 
     </main>
   </div>
