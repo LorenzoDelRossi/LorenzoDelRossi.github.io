@@ -13,13 +13,24 @@
     
     
     <item>
-      <title>Qual è il router Go più efficiente?</title>
+      <title>Qual è la tecnologia di routing Go più efficiente?</title>
       <link>https://LorenzoDelRossi.github.io/post/testmicroservizi/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/post/testmicroservizi/</guid>
       <description>&lt;figure&gt;
     &lt;img src=&#34;https://LorenzoDelRossi.github.io/post/images/testmicro.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Perchè scegliere Go?</title>
+      <link>https://LorenzoDelRossi.github.io/post/whygo/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/post/whygo/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/post/images/whygo.png&#34;/&gt; 
 &lt;/figure&gt;</description>
     </item>
     
