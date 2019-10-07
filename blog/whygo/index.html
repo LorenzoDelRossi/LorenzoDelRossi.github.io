@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang='en'><head>
- <title>Protocollo I2C in linguaggio C - Lorenzo Del Rossi</title>
-  <link rel='canonical' href='https://LorenzoDelRossi.github.io/portfolio/i2c/' />
+ <title>Perchè scegliere Go? - Lorenzo Del Rossi</title>
+  <link rel='canonical' href='https://LorenzoDelRossi.github.io/blog/whygo/' />
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <meta name='description' content='' />
+  <meta name='description' content='.' />
   <meta name='theme-color' content='#FD3519' />
   
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
@@ -22,20 +22,20 @@
 <link rel="stylesheet" href="https://LorenzoDelRossi.github.io/sass/style.min.5f8dd03be6a8a412c74c1eb40fe9c3aea0bf480c1c37c9246bd8eb7124d5a2f1.css" integrity="sha256-X43QO&#43;aopBLHTB60D&#43;nDrqC/SAwcN8kka9jrcSTVovE=" media="screen">
 <link rel="stylesheet" href="https://LorenzoDelRossi.github.io/syntax.min.css" integrity="" media="screen">
 
-  <meta property="og:title" content="Protocollo I2C in linguaggio C" />
-<meta property="og:description" content="All&rsquo;interno di sistemi complessi composti da più dispositivi interconnessi è necessario un collegamento, sia a livello fisico che a livello logico, con un dispositivo Master (che molto spesso è una scheda a microcontrollore). Per permettere a tutti i dispositivi Slave di funzionare correttamente ed in parallelo bisogna implementare un protocollo di comunicazione facendo attenzione a scriverlo ad-hoc per ogni dispositivo per evitare interferenze nella trasmissione dei dati quando il sistema sarà in funzione." />
+  <meta property="og:title" content="Perchè scegliere Go?" />
+<meta property="og:description" content="." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://LorenzoDelRossi.github.io/portfolio/i2c/" />
-<meta property="article:published_time" content="2018-05-02T19:47:09+02:00" />
-<meta property="article:modified_time" content="2018-05-02T19:47:09+02:00" />
+<meta property="og:url" content="https://LorenzoDelRossi.github.io/blog/whygo/" />
+<meta property="article:published_time" content="2019-09-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-09-23T00:00:00+00:00" />
 
-  <meta itemprop="name" content="Protocollo I2C in linguaggio C">
-<meta itemprop="description" content="All&rsquo;interno di sistemi complessi composti da più dispositivi interconnessi è necessario un collegamento, sia a livello fisico che a livello logico, con un dispositivo Master (che molto spesso è una scheda a microcontrollore). Per permettere a tutti i dispositivi Slave di funzionare correttamente ed in parallelo bisogna implementare un protocollo di comunicazione facendo attenzione a scriverlo ad-hoc per ogni dispositivo per evitare interferenze nella trasmissione dei dati quando il sistema sarà in funzione.">
+  <meta itemprop="name" content="Perchè scegliere Go?">
+<meta itemprop="description" content=".">
 
 
-<meta itemprop="datePublished" content="2018-05-02T19:47:09&#43;02:00" />
-<meta itemprop="dateModified" content="2018-05-02T19:47:09&#43;02:00" />
-<meta itemprop="wordCount" content="111">
+<meta itemprop="datePublished" content="2019-09-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-09-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="390">
 
 
 
@@ -121,37 +121,23 @@
 
   <div class="content-wrapper">
     
-    <main id="content" class="portfolio">
+    <main id="content" class="blog">
 
-<h1>Protocollo I2C in linguaggio C</h1>
-<div class="tags">
-  
+<h1>Perchè scegliere Go?</h1>
 
-
-  <div class="techs portfolio-tags">
-    <div class="icon">
+<div class="reading-time">
+  <div class="icon">
   <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
   
-  <path d="M112.125 86.25H103.5V34.5c0-6.325-5.175-11.5-11.5-11.5H23c-6.325 0-11.5 5.175-11.5 11.5v51.75H2.875A2.883 2.883 0 0 0 0 89.125v8.625C0 107.237 7.763 115 17.25 115h80.5c9.487 0 17.25-7.763 17.25-17.25v-8.625a2.883 2.883 0 0 0-2.875-2.875zm-92-51.75c0-1.558 1.317-2.875 2.875-2.875h69c1.558 0 2.875 1.317 2.875 2.875v51.75h-74.75V34.5zm86.25 63.25c0 4.756-3.869 8.625-8.625 8.625h-80.5c-4.756 0-8.625-3.869-8.625-8.625v-2.875H41.13c1.001 1.687 2.764 2.875 4.87 2.875h23c2.106 0 3.867-1.188 4.87-2.875h32.505v2.875zM49.892 70.015l2.032-2.032a2.875 2.875 0 0 0 0-4.066L45.506 57.5l6.416-6.418a2.875 2.875 0 0 0 0-4.067l-2.032-2.032a2.875 2.875 0 0 0-4.066 0L35.34 55.466a2.875 2.875 0 0 0 0 4.066l10.483 10.483a2.877 2.877 0 0 0 4.068 0zm13.185-2.03l2.033 2.032a2.875 2.875 0 0 0 4.066 0L79.66 59.534a2.875 2.875 0 0 0 0-4.066L69.176 44.985a2.875 2.875 0 0 0-4.066 0l-2.032 2.032a2.875 2.875 0 0 0 0 4.066l6.416 6.417-6.416 6.418a2.875 2.875 0 0 0 0 4.067z" />
+  <path d="M57.5 11C29.05 11 6 34.05 6 62.5S29.05 114 57.5 114 109 90.95 109 62.5 85.95 11 57.5 11zm0 93.032c-22.947 0-41.532-18.585-41.532-41.532 0-22.947 18.585-41.532 41.532-41.532 22.947 0 41.532 18.585 41.532 41.532 0 22.947-18.585 41.532-41.532 41.532zm12.833-21.68L52.703 69.54a2.508 2.508 0 0 1-1.018-2.015V33.427a2.5 2.5 0 0 1 2.492-2.492h6.646a2.5 2.5 0 0 1 2.492 2.492v29.426l13.871 10.092c1.122.81 1.35 2.368.54 3.49l-3.904 5.377a2.51 2.51 0 0 1-3.489.54z"/>
   
   </svg>
 </div>
 
-    <span>
-      
-          <a href="https://LorenzoDelRossi.github.io/techs/c&#43;&#43;/">C&#43;&#43;</a>
-        
-      <span>- </span>
-          <a href="https://LorenzoDelRossi.github.io/techs/c/">C</a>
-        
-      
-    </span>
-  </div>
+  <span>2 min.</span>
+</div>
 
-
-
-
-<div class="portfolio-tags">
+<div class="published-date">
   <div class="icon">
   <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
   
@@ -160,22 +146,35 @@
   </svg>
 </div>
 
-  <span>2018</span>
+  <span><time class="post-date" datetime="2019-09-23T00:00:00Z">
+23 Settembre 2019
+</time></span>
 </div>
-</div>
-
-<img title="Protocollo I2C in linguaggio C" alt="Protocollo I2C in linguaggio C" src="/portfolio/i2c/rx.png" />
-
-<p>All&rsquo;interno di sistemi complessi composti da più dispositivi interconnessi è necessario un collegamento, sia a livello fisico che a livello logico,
-con un dispositivo Master (che molto spesso è una scheda a microcontrollore).
-Per permettere a tutti i dispositivi Slave di funzionare correttamente ed in parallelo bisogna implementare un protocollo di comunicazione facendo attenzione a scriverlo ad-hoc
-per ogni dispositivo per evitare interferenze nella trasmissione dei dati quando il sistema sarà in funzione.
-Il mio lavoro è stato riadattare dal linguaggio C++ al linuguaggio C un&rsquo;interfaccia di comunicazione tramite protocollo I2C per un sensore di distanza da installare
-su un drone ad elica intubata dotato di scheda a microcontrollore Renesas RX63N.</p>
 
 
+<figure>
+    <img src="/blog/images/whygo.png"/> 
+</figure>
 
 
+<p>In un mondo con tecnologie e linguaggi sempre più numerosi sviluppare un&rsquo;applicazione Web efficiente è diventato ancor di più un tema molto delicato da affrontare.<br/></p>
+
+<p>Dato che per ogni problema complesso il miglior modo di risolverlo è dividerlo in sotto-problemi da risolvere uno alla volta (la famosa tecnica del Divide et Impera), in questo articolo tenterò di risolvere il primo sotto-problema alla base dello sviluppo della nostra applicazione: la scelta del linguaggio di programmazione.<br/></p>
+
+<p>Dal titolo si può facilmente intuire che la scelta è ricaduta su Go, il nuovo linguaggio di programmazione sviluppato da Google. Ovviamente tale decisione non è dovuta solamente alla mia passione di testare nuove teconologie (Go infatti è stato annunciato ufficialmente nel 2009 e rilasciato nel 2012) o dall&rsquo;autorevolezza di chi ha contribuito alla sua creazione (il team di sviluppo della prima versione di Go era composto da Robert Griesemer, Rob Pike e Ken Thompson, per chi non li conoscesse vale la pena dare un&rsquo;occhiata ai loro precedenti lavori), ma anche ad una serie di motivazioni che sto per esporvi. Per stabilire un paragone con linguaggi ampiamente conosciuti ed utilizzati nel mondo IT prenderò come linguaggi di riferimento Java e Python.<br/></p>
+
+<h2 id="problemi-di-concorrenza-più-semplici-da-risolvere">Problemi di concorrenza più semplici da risolvere&hellip;</h2>
+
+<p>L&rsquo;aspetto di Go che mi ha incuriosito e spinto a prenderlo in considerazione più approfonditamente è il fatto che è il primo linguaggio di programmazione nato quando i calcolatori erano già concepiti con architetture multi-processore, dunque il linguaggio implementa anche le cosiddette &ldquo;<em>goroutines</em>&rdquo; per tener conto che potrebbero essere eseguiti contemporaneamente porzioni di codice su diversi processori <strong>in concorrenza</strong>. Le <em>goroutines</em> sono simili ai threads tranne per il fatto che esse sono ottimizzate sia a livello di performance che a livello di <em>memory footprint</em>.<br/></p>
+
+<h2 id="e-non-solo">&hellip;e non solo</h2>
+
+<p>Go compila l&rsquo;intero programma in un singolo file binario ed a differenza di Python non c&rsquo;è bisogno di un <em>interpreter</em> per essere eseguito ed a differenza di Java non c&rsquo;è bisogno di una Virtual Machine per essere eseguito. Inoltre la toolchain di Go prevede un detector di corsa critica, feature non presente nè in Java nè in Python.<br/>
+Si consideri anche che strumenti sempre più utilizzati e conosciuti come <a href="https://www.docker.com/" target="_blank">Docker</a> e <a href="https://kubernetes.io/" target="_blank">Kubernetes</a> sono stati sviluppati in Go.</p>
+
+<p>Questi sono i motivi più evidenti per cui ho scelto (e consiglio) di utilizzare Go come base per lo sviluppo di un&rsquo;applicazione Web.</p>
+
+<p><em>#LetsGO</em></p>
     </main>
   </div>
   <footer>

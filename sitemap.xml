@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://LorenzoDelRossi.github.io/blog/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://LorenzoDelRossi.github.io/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,21 +17,14 @@
   </url>
   
   <url>
-    <loc>https://LorenzoDelRossi.github.io/post/</loc>
+    <loc>https://LorenzoDelRossi.github.io/blog/testmicroservizi/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://LorenzoDelRossi.github.io/post/testmicroservizi/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/post/whygo/</loc>
+    <loc>https://LorenzoDelRossi.github.io/blog/whygo/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -123,6 +123,12 @@
   
   <url>
     <loc>https://LorenzoDelRossi.github.io/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://LorenzoDelRossi.github.io/su-di-me/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

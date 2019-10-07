@@ -14,23 +14,23 @@
     
     <item>
       <title>Qual è la tecnologia di routing Go più efficiente?</title>
-      <link>https://LorenzoDelRossi.github.io/post/testmicroservizi/</link>
+      <link>https://LorenzoDelRossi.github.io/blog/testmicroservizi/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://LorenzoDelRossi.github.io/post/testmicroservizi/</guid>
+      <guid>https://LorenzoDelRossi.github.io/blog/testmicroservizi/</guid>
       <description>&lt;figure&gt;
-    &lt;img src=&#34;https://LorenzoDelRossi.github.io/post/images/testmicro.png&#34;/&gt; 
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/testmicro.png&#34;/&gt; 
 &lt;/figure&gt;</description>
     </item>
     
     <item>
       <title>Perchè scegliere Go?</title>
-      <link>https://LorenzoDelRossi.github.io/post/whygo/</link>
+      <link>https://LorenzoDelRossi.github.io/blog/whygo/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://LorenzoDelRossi.github.io/post/whygo/</guid>
+      <guid>https://LorenzoDelRossi.github.io/blog/whygo/</guid>
       <description>&lt;figure&gt;
-    &lt;img src=&#34;https://LorenzoDelRossi.github.io/post/images/whygo.png&#34;/&gt; 
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/whygo.png&#34;/&gt; 
 &lt;/figure&gt;</description>
     </item>
     
@@ -62,11 +62,21 @@
     </item>
     
     <item>
-      <title>SU DI ME</title>
+      <title>ABOUT</title>
       <link>https://LorenzoDelRossi.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/about/</guid>
+      <description>This is my about page. 👋
+Lorem ipsum dolor sit amet, 😄 consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? 🌍</description>
+    </item>
+    
+    <item>
+      <title>SU DI ME</title>
+      <link>https://LorenzoDelRossi.github.io/su-di-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/su-di-me/</guid>
       <description>Ho deciso di trasformare la mia passione in un mestiere laureandomi in Ingegneria Informatica e dell&amp;rsquo;Automazione; in particolare ho deciso di proseguire gli studi specializzandomi nel campo dell&amp;rsquo;Intelligenza Artificiale.
 Durante il mio percorso di studi ho scelto di lavorare in parallelo come Freelancer sviluppando progetti nel settore IT prediligendo i linguaggi C, C++, Java, GoLang.
 Nel tempo libero miglioro le mie competenze seguendo corsi di formazione che mi permettono di acquisire maggior abilità nello sviluppo di applicazioni web scalabili ed efficienti.</description>
