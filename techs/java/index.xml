@@ -14,10 +14,10 @@
     
     <item>
       <title>API RESTful in Java &#43; Spring</title>
-      <link>https://LorenzoDelRossi.github.io/portfolio/sample/</link>
+      <link>https://LorenzoDelRossi.github.io/portfolio/apijava/</link>
       <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
       
-      <guid>https://LorenzoDelRossi.github.io/portfolio/sample/</guid>
+      <guid>https://LorenzoDelRossi.github.io/portfolio/apijava/</guid>
       <description>Sviluppare un set di API è un ottimo esercizio di sviluppo. Lo vediamo da diversi anni ormai e adesso che anche WordPress offre le sue API possiamo iniziare a sviluppare più facilmente. Con l’acronimo API si intende Application Programming Interface e non è altro che la creazione di una serie di endpoint (delle URL) che rispondono alle richieste fatte da uno sviluppatore. Praticamente una raccolta di metodi che ci permettono di collegare librerie o applicazioni presenti su diversi sistemi.</description>
     </item>
     
