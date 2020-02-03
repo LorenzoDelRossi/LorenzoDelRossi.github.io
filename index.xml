@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HOME on Lorenzo Del Rossi</title>
@@ -32,15 +32,6 @@
       <description>&lt;figure&gt;
     &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/whygo2.png&#34;/&gt; 
 &lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>Architettura Backend Nesso</title>
-      <link>https://LorenzoDelRossi.github.io/portfolio/nesso/</link>
-      <pubDate>Fri, 20 Sep 2019 19:47:09 +0200</pubDate>
-      
-      <guid>https://LorenzoDelRossi.github.io/portfolio/nesso/</guid>
-      <description>All&amp;rsquo;interno di un&amp;rsquo;applicazione Web è importante avere una buona UI/UX (User Interface/User Experience), ma è di altrettanta importanza costruire una solida e scalabile architettura Backend. In un ambito in cui la manipolazione di grandi quantità di dati sta diventando sempre più necessario per ogni attività, il mio ruolo nella nuova startup che rivoluzionerà il mondo del servizio di trasporto moto è stato e sarà, in qualità di CIO, ideare e sviluppare l&amp;rsquo;architettura lato Server, utilizzando due tecnologie all&amp;rsquo;avanguardia come il linguaggio Go ed il database non-relazionale MongoDB,per garantire un&amp;rsquo;appropriata manipolazione ed organizzazione dei dati.</description>
     </item>
     
     <item>

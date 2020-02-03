@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -26,41 +26,6 @@
   <url>
     <loc>https://LorenzoDelRossi.github.io/blog/whygo/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/portfolio/nesso/</loc>
-    <lastmod>2019-09-20T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/golang/</loc>
-    <lastmod>2019-09-20T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/mongodb/</loc>
-    <lastmod>2019-09-20T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/portfolio/</loc>
-    <lastmod>2019-09-20T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/</loc>
-    <lastmod>2019-09-20T19:47:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -94,7 +59,21 @@
   </url>
   
   <url>
+    <loc>https://LorenzoDelRossi.github.io/portfolio/</loc>
+    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://LorenzoDelRossi.github.io/techs/spring/</loc>
+    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://LorenzoDelRossi.github.io/techs/</loc>
     <lastmod>2019-07-02T19:47:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
