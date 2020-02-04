@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <copyright>© Lorenzo Del Rossi</copyright>
-    <lastBuildDate>Tue, 02 Jul 2019 19:47:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 19:47:09 +0200</lastBuildDate>
     
 	<atom:link href="https://LorenzoDelRossi.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Studio ed implementazione di applicazione su nodo IOT STM32</title>
+      <link>https://LorenzoDelRossi.github.io/portfolio/sensor/</link>
+      <pubDate>Mon, 12 Aug 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/portfolio/sensor/</guid>
+      <description>Nel mondo dell&amp;rsquo;industria 4.0 ogni componente deve essere sempre connesso con il mondo esterno, ed il componente connesso per eccellenza è il nodo IOT. Il mio lavoro ha previsto la realizzazione di un&amp;rsquo;applicazione di rilevazione di dati ambientali (temperatura, pressione ed umidità) tramite i sensori installati sul nodo stesso, con rielaborazione dei dati per la stima della temperatura percepita (Heat Index). Per sincronizzare al meglio i task ho utilizzato varie funzionalità del sistema operativo real-time FreeRTOS.</description>
+    </item>
     
     <item>
       <title>API RESTful in Java &#43; Spring</title>
