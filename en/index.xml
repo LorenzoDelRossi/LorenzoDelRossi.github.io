@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Lorenzo Del Rossi</title>
+    <link>https://LorenzoDelRossi.github.io/en/</link>
+    <description>Recent content in Home on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://LorenzoDelRossi.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Which is the most efficient Go routing technology?</title>
+      <link>https://LorenzoDelRossi.github.io/en/blog/testmicroservizi/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/blog/testmicroservizi/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/testmicro2.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why should we choose Go?</title>
+      <link>https://LorenzoDelRossi.github.io/en/blog/whygo/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/blog/whygo/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/whygo2.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Study and implementation of an application on IOT Node STM32</title>
+      <link>https://LorenzoDelRossi.github.io/en/portfolio/sensor/</link>
+      <pubDate>Mon, 12 Aug 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/portfolio/sensor/</guid>
+      <description>In the world of industry 4.0 each component must always be connected with the external world, and the component connected par excellence is the IOT node. My work involved the creation of an application for detecting environmental data (temperature, pressure and humidity) through the sensors installed on the node itself, with data processing for estimating the perceived temperature (Heat Index). To better synchronize the tasks I used various features of the FreeRTOS real-time operating system.</description>
+    </item>
+    
+    <item>
+      <title>RESTful Java &#43; Spring API</title>
+      <link>https://LorenzoDelRossi.github.io/en/portfolio/apijava/</link>
+      <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/portfolio/apijava/</guid>
+      <description>Developing an API set is an excellent development exercise. We have seen this for several years now and now that WordPress also offers its API we can start developing more easily. The API stands for Application Programming Interface and is nothing more than the creation of a series of endpoints (URLs) that respond to requests made by a developer. Practically a collection of methods that allow us to connect libraries or applications present on different systems.</description>
+    </item>
+    
+    <item>
+      <title>I2C Protocol in C language</title>
+      <link>https://LorenzoDelRossi.github.io/en/portfolio/i2c/</link>
+      <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/portfolio/i2c/</guid>
+      <description>Within complex systems consisting of multiple interconnected devices, a connection is required, both physically and logically, with a Master device (which is very often a microcontroller board). To allow all Slave devices to work correctly and in parallel, a communication protocol must be implemented, being careful to write it ad-hoc for each device to avoid interference in data transmission when the system is operating. My job was to adapt from C ++ language to C language a communication interface via I2C protocol for a distance sensor to be installed on an intubated propeller drone equipped with a Renesas RX63N microcontroller board.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://LorenzoDelRossi.github.io/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/about/</guid>
+      <description>I decided to transform my passion into a job by graduating in Computer and Automation Engineering; in particular I&amp;rsquo;ve chosen to continue my studies specializing in the field of Artificial Intelligence.
+During my studies I work in parallel as a Freelancer developing projects in the IT sector preferring languages C, C++, Java, GoLang.
+In my spare time I improve my skills by following training courses that allow me to acquire more skills in the development of scalable and efficient web applications.</description>
+    </item>
+    
+  </channel>
+</rss>

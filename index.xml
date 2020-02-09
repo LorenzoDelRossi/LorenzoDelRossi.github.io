@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HOME on Lorenzo Del Rossi</title>
+    <title>Home on Lorenzo Del Rossi</title>
     <link>https://LorenzoDelRossi.github.io/</link>
-    <description>Recent content in HOME on Lorenzo Del Rossi</description>
+    <description>Recent content in Home on Lorenzo Del Rossi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <copyright>© Lorenzo Del Rossi</copyright>
@@ -62,21 +62,11 @@
     </item>
     
     <item>
-      <title>ABOUT</title>
+      <title>Su di me</title>
       <link>https://LorenzoDelRossi.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LorenzoDelRossi.github.io/about/</guid>
-      <description>This is my about page. 👋
-Lorem ipsum dolor sit amet, 😄 consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? 🌍</description>
-    </item>
-    
-    <item>
-      <title>SU DI ME</title>
-      <link>https://LorenzoDelRossi.github.io/su-di-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://LorenzoDelRossi.github.io/su-di-me/</guid>
       <description>Ho deciso di trasformare la mia passione in un mestiere laureandomi in Ingegneria Informatica e dell&amp;rsquo;Automazione; in particolare ho scelto di proseguire gli studi specializzandomi nel campo dell&amp;rsquo;Intelligenza Artificiale.
 Durante il mio percorso di studi lavoro in parallelo come Freelancer sviluppando progetti nel settore IT prediligendo i linguaggi C, C++, Java, GoLang.
 Nel tempo libero miglioro le mie competenze seguendo corsi di formazione che mi permettono di acquisire maggior abilità nello sviluppo di applicazioni web scalabili ed efficienti.</description>

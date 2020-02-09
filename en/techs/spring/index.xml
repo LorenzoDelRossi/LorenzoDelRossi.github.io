@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on Lorenzo Del Rossi</title>
+    <link>https://LorenzoDelRossi.github.io/en/techs/spring/</link>
+    <description>Recent content in Spring on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Tue, 02 Jul 2019 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://LorenzoDelRossi.github.io/en/techs/spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RESTful Java &#43; Spring API</title>
+      <link>https://LorenzoDelRossi.github.io/en/portfolio/apijava/</link>
+      <pubDate>Tue, 02 Jul 2019 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/portfolio/apijava/</guid>
+      <description>Developing an API set is an excellent development exercise. We have seen this for several years now and now that WordPress also offers its API we can start developing more easily. The API stands for Application Programming Interface and is nothing more than the creation of a series of endpoints (URLs) that respond to requests made by a developer. Practically a collection of methods that allow us to connect libraries or applications present on different systems.</description>
+    </item>
+    
+  </channel>
+</rss>

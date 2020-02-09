@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Lorenzo Del Rossi</title>
+    <link>https://LorenzoDelRossi.github.io/en/techs/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Wed, 02 May 2018 19:47:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://LorenzoDelRossi.github.io/en/techs/c++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I2C Protocol in C language</title>
+      <link>https://LorenzoDelRossi.github.io/en/portfolio/i2c/</link>
+      <pubDate>Wed, 02 May 2018 19:47:09 +0200</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/portfolio/i2c/</guid>
+      <description>Within complex systems consisting of multiple interconnected devices, a connection is required, both physically and logically, with a Master device (which is very often a microcontroller board). To allow all Slave devices to work correctly and in parallel, a communication protocol must be implemented, being careful to write it ad-hoc for each device to avoid interference in data transmission when the system is operating. My job was to adapt from C ++ language to C language a communication interface via I2C protocol for a distance sensor to be installed on an intubated propeller drone equipped with a Renesas RX63N microcontroller board.</description>
+    </item>
+    
+  </channel>
+</rss>

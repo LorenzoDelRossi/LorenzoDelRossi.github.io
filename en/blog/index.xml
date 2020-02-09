@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Lorenzo Del Rossi</title>
+    <link>https://LorenzoDelRossi.github.io/en/blog/</link>
+    <description>Recent content in Blog on Lorenzo Del Rossi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© Lorenzo Del Rossi</copyright>
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://LorenzoDelRossi.github.io/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Which is the most efficient Go routing technology?</title>
+      <link>https://LorenzoDelRossi.github.io/en/blog/testmicroservizi/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/blog/testmicroservizi/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/testmicro2.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why should we choose Go?</title>
+      <link>https://LorenzoDelRossi.github.io/en/blog/whygo/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://LorenzoDelRossi.github.io/en/blog/whygo/</guid>
+      <description>&lt;figure&gt;
+    &lt;img src=&#34;https://LorenzoDelRossi.github.io/blog/images/whygo2.png&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

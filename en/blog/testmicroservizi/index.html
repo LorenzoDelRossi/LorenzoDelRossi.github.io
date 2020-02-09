@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang='en' class = 'animated fadeIn'><head>
+ <title>Which is the most efficient Go routing technology? - Lorenzo Del Rossi</title>
+  <link rel='canonical' href='https://LorenzoDelRossi.github.io/en/blog/testmicroservizi/' />
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='description' content='Comparazione prestazionale dei router più famosi di Go.' />
+  <meta name='theme-color' content='#FD3519' />
+  
+    <link rel="shortcut icon" href="/images/LDR.png" type="image/x-icon" />
+    <link rel="icon" href="/images/LDR.png" type="image/x-icon" />
+  
+
+  <meta name="generator" content="Hugo 0.59.1" />
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://LorenzoDelRossi.github.io/sass/style.min.d7a921f3f712d548957479c7a22ca3877d80983960e97816bfd036b11aa68717.css" integrity="sha256-16kh8/cS1UiVdHnHoiyjh32AmDlg6XgWv9A2sRqmhxc=" media="screen">
+<link rel="stylesheet" href="https://LorenzoDelRossi.github.io/syntax.min.css" integrity="" media="screen">
+<link rel="stylesheet" href="https://LorenzoDelRossi.github.io/animate.min.css" integrity="" media="screen">
+
+  <meta property="og:title" content="Which is the most efficient Go routing technology?" />
+<meta property="og:description" content="Comparazione prestazionale dei router più famosi di Go." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://LorenzoDelRossi.github.io/en/blog/testmicroservizi/" />
+<meta property="article:published_time" content="2019-10-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-01T00:00:00+00:00" /><meta property="og:site_name" content="Lorenzo Del Rossi" />
+
+  <meta itemprop="name" content="Which is the most efficient Go routing technology?">
+<meta itemprop="description" content="Comparazione prestazionale dei router più famosi di Go.">
+
+
+<meta itemprop="datePublished" content="2019-10-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-10-01T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="533">
+
+
+
+<meta itemprop="keywords" content="" />
+
+
+</head>
+<body>
+
+  <header style="background-image:linear-gradient(
+      rgba(0,0,0,0.6),rgba(0,0,0,0.6)
+    ),url(&#39;https://LorenzoDelRossi.github.io/images/tast.jpeg&#39;)">
+
+  <div class="intro">
+    <div class="logo-container">
+      <a href=/en/>
+        <img src='https://LorenzoDelRossi.github.io/images/LDR.png' alt="Profile Blog" class="rounded-logo">
+      </a>
+    </div>
+    <h2>LORENZO</h2>
+	<h2>DEL ROSSI</h2>
+    <h3>Computer Engineer</h3>
+    <div class="menu">
+      
+
+        <p>
+            <a href="/en/about/">
+                About me
+            </a>
+        </p>
+
+        <p>
+            <a href="/en/portfolio/">
+                Portfolio
+            </a>
+        </p>
+
+        <p>
+            <a href="/en/blog/">
+                Blog
+            </a>
+        </p>
+
+      
+        
+        <p>
+            <a href="mailto:lorenzodelrossi95@gmail.com" target="_blank" rel="external">
+                Contact me
+            </a>
+        </p>
+      
+    </div>
+
+  </div>
+
+  <div class="socials">
+      
+  
+    <a href="https://github.com/LorenzoDelRossi" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.linkedin.com/in/lorenzo-del-rossi-76517418b/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M106.786 0H8.189C3.67 0 0 3.722 0 8.291v98.418C0 111.278 3.67 115 8.189 115h98.597c4.518 0 8.214-3.722 8.214-8.291V8.29C115 3.722 111.304 0 106.786 0zm-72.03 98.571H17.713V43.69h17.07V98.57h-.025zm-8.522-62.377c-5.467 0-9.882-4.44-9.882-9.883 0-5.442 4.415-9.882 9.882-9.882 5.442 0 9.883 4.44 9.883 9.882a9.87 9.87 0 0 1-9.883 9.883zm72.414 62.377H81.604V71.875c0-6.366-.129-14.555-8.856-14.555-8.882 0-10.242 6.931-10.242 14.093V98.57H45.46V43.69h16.352v7.495h.23c2.285-4.312 7.855-8.856 16.147-8.856 17.25 0 20.458 11.372 20.458 26.158V98.57z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  </div>
+
+</header>
+
+  <div class="content-wrapper">
+    
+    <main id="content" class="blog">
+
+<h1>Which is the most efficient Go routing technology?</h1>
+
+<div class="reading-time">
+  <div class="icon">
+  <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M57.5 11C29.05 11 6 34.05 6 62.5S29.05 114 57.5 114 109 90.95 109 62.5 85.95 11 57.5 11zm0 93.032c-22.947 0-41.532-18.585-41.532-41.532 0-22.947 18.585-41.532 41.532-41.532 22.947 0 41.532 18.585 41.532 41.532 0 22.947-18.585 41.532-41.532 41.532zm12.833-21.68L52.703 69.54a2.508 2.508 0 0 1-1.018-2.015V33.427a2.5 2.5 0 0 1 2.492-2.492h6.646a2.5 2.5 0 0 1 2.492 2.492v29.426l13.871 10.092c1.122.81 1.35 2.368.54 3.49l-3.904 5.377a2.51 2.51 0 0 1-3.489.54z"/>
+  
+  </svg>
+</div>
+
+  <span>3 min.</span>
+</div>
+
+<div class="published-date">
+  <div class="icon">
+  <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M77.577 51.23a1.807 1.807 0 0 0-2.2.342l-27.562 27.79a1.807 1.807 0 0 1-2.2.342l-14.008-9.702a1.807 1.807 0 0 0-2.2.342l-1.952 1.968c-.287.22-.456.568-.455.936.001.37.172.716.46.934L45.637 86.77a1.807 1.807 0 0 0 2.2-.342l31.709-31.97c.287-.22.456-.567.455-.936a1.175 1.175 0 0 0-.46-.933l-1.963-1.36z"/><path d="M97.304 20H80.512c-.041.34-.063.683-.064 1.026a5.986 5.986 0 0 0 1.256 4.1c.054.003.103.02.157.025a4.881 4.881 0 0 1 1.865-.025c3.05.562 4.984 3.907 4.32 7.47-.666 3.563-3.678 5.996-6.728 5.433a4.932 4.932 0 0 1-2.437-1.258c-6.018-1.378-10.445-7.795-10.445-15.745 0-.347.023-.685.04-1.026H34.579c-.041.34-.063.683-.064 1.026a5.986 5.986 0 0 0 1.256 4.1c.054.003.103.02.157.025a4.881 4.881 0 0 1 1.865-.025c3.05.562 4.984 3.907 4.32 7.47-.666 3.563-3.678 5.996-6.728 5.433a4.932 4.932 0 0 1-2.437-1.258c-6.018-1.378-10.445-7.795-10.445-15.745 0-.22.019-.434.025-.652a9.788 9.788 0 0 0-5.697 4.471 9.683 9.683 0 0 0-2.65 4.764L1.158 92.871c-.965 4.689 2.6 8.503 7.948 8.503h6.334v2.673c-.077 5.41 4.263 9.861 9.705 9.953h72.16c5.438-.095 9.774-4.546 9.694-9.953V29.953c.08-5.407-4.256-9.858-9.695-9.953zM10.078 96.653c-2.378 0-3.964-1.697-3.535-3.782L16.637 43.84h80.787L87.331 92.871a5.254 5.254 0 0 1-5.091 3.782H10.078zm91.535 7.394c.036 2.403-1.891 4.382-4.308 4.424h-72.16c-2.42-.04-4.352-2.018-4.32-4.424v-2.673h60.443c5.348 0 10.484-3.814 11.449-8.503l8.897-43.215v54.391z"/><path d="M34.814 33c1.243 0 2.251-1.057 2.251-2.36 0-1.305-1.008-2.362-2.25-2.362-2.04 0-4.313-3.194-4.313-7.778s2.272-7.778 4.312-7.778c1.227 0 2.536 1.163 3.386 3.084H43C41.716 11.19 38.578 8 34.814 8 29.871 8 26 13.49 26 20.5c0 7.009 3.871 12.5 8.814 12.5z"/>
+  
+  </svg>
+</div>
+
+  
+
+<span>October 1, 2019</span>
+
+
+</div>
+
+
+<figure>
+    <img src="/blog/images/testmicro2.png"/> 
+</figure>
+
+
+<p>In this article I will continue to deal with the optimization in the development of a Web Application. <br/>
+The starting point for an optimized application is certainly the use of an appropriate language, but it is not enough. <br/> In the previous article I talked about why the choice of the Go language influences the optimization of our application, but it is not enough to choose
+an optimized language to automatically obtain an optimized application. <br/>
+In this article I will therefore focus on another equally important aspect: choosing the most efficient routing technology possible. <br/></p>
+
+<p>There are many routers and frameworks available in Go language, starting with the very famous GorillaMux and Martini, which over time have been surpassed in terms of performance by other &ldquo;younger&rdquo; routers. Testing them all would be a mammoth job, so I concentrated on testing a router and a framework that I think are among the most efficient at the moment: <strong>HttpRouter</strong> by Julien Schmidt and the <strong>Gin</strong> framework. <br/></p>
+
+<h2 id="some-theory">Some theory..</h2>
+
+<p>HttpRouter is a lightweight and optimized HTTP request router that provides high performance with reduced memory consumption compared to the standard mux of the <em>net / http</em> package. Among its main features we have: <br/></p>
+
+<ul>
+<li>Path auto-correction: it doesn&rsquo;t matter if you enter uppercase letters where there were lowercase letters or vice versa, HttpRouter will automatically correct the error for you.</li>
+<li>Zero garbage: the only bytes allocated will be to build the key-value correspondences for the paths you intend to cover with your application.</li>
+<li>Anti-panic: you can set a Panic Handler to avoid abnormal crashes of
+the server and handle unwanted situations.</li>
+</ul>
+
+<p>Gin is a web framework that presents an API similar to Martini, which was the most used framework until recently, made more performing.
+Let&rsquo;s see some of its features: <br/></p>
+
+<ul>
+<li>Active community: thanks to the Gin community there is a wide choice of middlewares.</li>
+<li>Anti-panic: this framework also gives the possibility to set a Panic Handler to avoid anomalous server crashes and manage unwanted situations.</li>
+<li>Compact syntax: compared to other routers Gin has a more compact syntax which will allow you to save precious lines of code.</li>
+</ul>
+
+<h2 id="and-now-we-move-on-to-the-facts">..and now we move on to the facts</h2>
+
+<p>To establish which of the two routers has the best performance, I developed a microservice using the Julien Schmidt router and one using the Gin router which, through a POST call, generates 500 other competing POST calls with a body consisting of the JSON</p>
+
+<pre><code>{
+&quot;name&quot;: &quot;prova&quot;
+}
+</code></pre>
+
+<p>which will later be printed on the console. <br/>
+To start the calls on one of the developed microservices, I created a third microservice which, based on the GET call that is passed to it, generates a POST call to one or the other microservice.</p>
+
+<p>After carrying out 50 tests for each microservice and calculating the average of the times necessary to perform them, the result rewarded Gin.</p>
+
+<figure>
+    <img src="/en/blog/images/tempi.png"/> 
+</figure>
+
+
+<p>In conclusion, although Julien Schmidt&rsquo;s router has gained its reputation for its efficiency, we have shown that there is a router that manages to be even more without having to write longer or more complex codes. <br/></p>
+
+<p>If you want to take a look at the code or modify it to test other routers, you can find it <a href="https://github.com/LorenzoDelRossi/Julien-Schmidt-vs-Gin-Router" target="_blank">HERE</a>.</p>
+
+<p><em>#LetsGO</em></p>
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+	    <div class="dropdown">
+            
+            
+			
+              <a href="https://LorenzoDelRossi.github.io/blog/testmicroservizi/" data-lang="it" ><svg width="24" height="24">&lt;?xml version="1.0" encoding="iso-8859-1"?>
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<circle style="fill:#F0F0F0;" cx="256" cy="256" r="256"/>
+<path style="fill:#D80027;" d="M512,256c0-110.071-69.472-203.906-166.957-240.077v480.155C442.528,459.906,512,366.071,512,256z"/>
+<path style="fill:#6DA544;" d="M0,256c0,110.071,69.472,203.906,166.957,240.077V15.923C69.472,52.094,0,145.929,0,256z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+ </svg></a>
+            
+			
+  </div>
+		
+	  
+	        <p>Site made by © Lorenzo Del Rossi 2020 &mdash; All rights reserved </p>
+			
+     
+    </div>
+  </footer>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
+  
+</body>
+</html>

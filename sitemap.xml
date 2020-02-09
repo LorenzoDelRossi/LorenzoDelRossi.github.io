@@ -1,122 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/blog/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/blog/testmicroservizi/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/blog/whygo/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/c/</loc>
-    <lastmod>2019-08-12T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/portfolio/</loc>
-    <lastmod>2019-08-12T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/portfolio/sensor/</loc>
-    <lastmod>2019-08-12T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/</loc>
-    <lastmod>2019-08-12T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/portfolio/apijava/</loc>
-    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/designs/</loc>
-    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/designs/html/</loc>
-    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/java/</loc>
-    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/spring/</loc>
-    <lastmod>2019-07-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/techs/c&#43;&#43;/</loc>
-    <lastmod>2018-05-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/portfolio/i2c/</loc>
-    <lastmod>2018-05-02T19:47:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://LorenzoDelRossi.github.io/su-di-me/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://LorenzoDelRossi.github.io/it/sitemap.xml</loc>
+		
+	   	<lastmod>2019-10-01T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://LorenzoDelRossi.github.io/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-10-01T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>
